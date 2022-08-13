@@ -1,4 +1,4 @@
-﻿//Если метод не возвращает какие-то значения, т.е. метод ничего не возвразает, то он наз. Void метод и тогда не надо использовать return 
+﻿//Если метод не возвращает какие-то значения, т.е. метод ничего не возвращает, то он наз. Void метод и тогда не надо использовать return 
 void FillArray(int[] collection)   //наименование метода(название аргумента)
 {
     int length  = collection.Length;  //длина массива
@@ -48,5 +48,5 @@ array[6] = 4;
 PrintArray(array);           //метод печати массива на экран
 Console.WriteLine();
 
-int pos = IndexOf(array, 444);
+int pos = IndexOf(array, 4);
 Console.WriteLine(pos);     //

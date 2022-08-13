@@ -1,9 +1,10 @@
-﻿int Max(int arg1, int arg2, int arg3)
+﻿int Max(int arg1, int arg2, int arg3)    // функция Мax в качестве возвращаемого типа int, 
+                                        //берём первые 3 числа сравниваем, потом вторые 3 числа, потом третьи 3 числа и уже из тройки max выбираем окончательный max
 {
-    int result = arg1;
+    int result = arg1;                 // тело метода, определяем внутренний result
     if(arg2 > result) result = arg2;
     if(arg3 > result) result = arg3;
-    return result;
+    return result;                    // метод возвращает result
 }
 
 
